@@ -22,8 +22,7 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 - **Architecture 1:**  temporel transformer
     - chaque pixel est répresenté seulement par l'information spectrale  à un instant t.
 - **Architecture 2:**  spatio-temporel transformer
-    - chaque pixel est répresenté seulement par l'information spectrale  à un instant t.
-    -chaque pixel est représenté par l'information spectrale et l'information spatiale à travers le temps.
+    - chaque pixel est représenté par l'information spectrale et l'information spatiale à travers le temps.
 - **Architecture 3:**  fine tuning spatio-temporel transformer
    - cet architecture est composée de deux étapes: 
       - *Pré-entraînement auto-supervisé :**  Masked Image Modeling (MIM), Contrastive learning entre timestamps  
