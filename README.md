@@ -19,17 +19,15 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 - Alignement temporel   
 
 ### 2. Architecture du modèle
-**Architectur 3: ** 
-- **Pré-entraînement auto-supervisé :**  
-  - Masked Image Modeling (MIM)  
-  - Contrastive learning entre timestamps  
-
-### 3. Fine-tuning
-- Fine-tuning supervisé sur un petit jeu de données annotées  
-- Optimisation : AdamW, learning rate scheduler, early stopping  
-
+- **Architecture 1:**  temporel transformer
+    - seulement l'information spectrale est pris en considération pour chaque pixel à un instant t.
+- **Architecture 2:**  spatio-temporel transformer
+    -chaque pixel est représenté par l'information spectrale et l'information spatiale à travers le temps.
+- **Architecture 3:**  fine tuning spatio-temporel transformer
+   - cet architecture est composée de deux étapes: 
+      - *Pré-entraînement auto-supervisé :**  Masked Image Modeling (MIM), Contrastive learning entre timestamps  
+      - Fine-tuning supervisé sur un petit jeu de données annotées  
 ---
-
 ## Résultats
 
 | Métrique | Modèle Auto-Supervisé | Modèle Supervisé Standard |
