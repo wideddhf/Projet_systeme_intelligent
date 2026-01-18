@@ -7,10 +7,9 @@ La classification des séries temporelles d’images satellites est tache primor
 - La gestion des ressources naturelles  
 
 Le défi principal réside dans la **quantité limitée de données étiquetées** et la complexité spatiale et temporelle des images. 
----
 
 Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des modèles Transformer** pour la classification des séries temporelles d’images satellites. L’objectif est de **tirer parti des grandes quantités de données non étiquetées** afin d’améliorer la performance sur des tâches de classification supervisée avec des données limitées.
----
+
 
 ## Méthodologie
 
