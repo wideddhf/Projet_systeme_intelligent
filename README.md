@@ -41,7 +41,7 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 | Kappa    | 0.89                 | 0.80                     |
 
 **Interprétation:**  
-- Le pré-entraînement auto-supervisé ET l'intégration de l'information spatiale améliore la précision, notamment pour les classes minoritaires.  
+- Le pré-entraînement auto-supervisé et l'intégration de l'information spatiale améliore la précision, notamment pour les classes minoritaires.  
 - La convergence est plus rapide lors du fine-tuning supervisé.  
 
 
