@@ -15,8 +15,8 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 
 
 ### 1. Prétraitement des données
-- Normalisation des images satellites
-- Alignement temporel   
+- Normalisation des images satellites.
+- Alignement temporel, spatial et spectral.  
 
 ### 2. Architecture du modèle
 - **Architecture 1:**  temporel transformer
@@ -25,8 +25,8 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
     - chaque pixel est représenté par l'information spectrale et l'information spatiale à travers le temps.
 - **Architecture 3:**  fine tuning spatio-temporel transformer
    - cet architecture est composée de deux étapes: 
-      - *Pré-entraînement auto-supervisé :**  Masked Image Modeling (MIM), Contrastive learning entre timestamps  
-      - Fine-tuning supervisé sur un petit jeu de données annotées  
+      - *Pré-entraînement auto-supervisé :**  Masked Image Modeling (MIM), Contrastive learning entre timestamps.
+      - Fine-tuning supervisé sur un petit jeu de données annotées.
 ---
 ## Résultats
 
