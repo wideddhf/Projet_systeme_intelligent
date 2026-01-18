@@ -16,11 +16,10 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 
 ### 1. Prétraitement des données
 - Normalisation des images satellites
-- Alignement temporel et interpolation des séries manquantes  
+- Alignement temporel   
 
 ### 2. Architecture du modèle
-
-- **Backbone :** Transformer pour séries temporelles  
+**Architectur 3: ** 
 - **Pré-entraînement auto-supervisé :**  
   - Masked Image Modeling (MIM)  
   - Contrastive learning entre timestamps  
