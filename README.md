@@ -1,6 +1,6 @@
 ## Présentation
 
-La classification des séries temporelles d’images satellites est tache primordiale. Elle est le coeur de plusieurs applications:  
+La classification des séries temporelles d’images satellites est une tâche primordiale . Elle est le coeur de plusieurs applications:  
 
 - La surveillance agricole  
 - La détection de changements environnementaux  
