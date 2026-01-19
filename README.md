@@ -34,7 +34,7 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 |----------|----------------------|-------------------------|
 | Architecture 1 |75.31%                | 68.35%                   |
 | Architecture 2 | 79.34%                 | 73.61%                      |
-| Architecture 3   | 79.68%               |0.73.62 %                    |
+| Architecture 3   | 79.68%               |0.73.62%                    |
 
 ## Interprétation
 - Le pré-entraînement auto-supervisé et l'intégration de l'information spatiale améliore la précision, notamment pour les classes minoritaires.  
