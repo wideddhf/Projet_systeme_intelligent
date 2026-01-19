@@ -30,11 +30,11 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 ---
 ## Résultats
 
-| Métrique | Modèle Auto-Supervisé | Modèle Supervisé Standard |
+| Architecture |  Accuracy|  Kappa  |
 |----------|----------------------|-------------------------|
-| Accuracy | 92.5%                | 85.0%                   |
-| F1-score | 0.91                 | 0.83                     |
-| Kappa    | 0.89                 | 0.80                     |
+| Architecture 1 |75.31%                | 68.35%                   |
+| Architecture 2 | 79.34%                 | 73.61%                      |
+| Architecture 3   | 79.68%               |0.73.62 %                    |
 
 **Interprétation:**  
 - Le pré-entraînement auto-supervisé et l'intégration de l'information spatiale améliore la précision, notamment pour les classes minoritaires.  
