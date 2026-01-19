@@ -24,9 +24,9 @@ Ce projet explore l’utilisation de **pré-entraînement auto-supervisé des mo
 - **Architecture 2:**  spatio-temporel transformer
     - chaque pixel est représenté par l'information spectrale et l'information spatiale à travers le temps.
 - **Architecture 3:**  fine tuning spatio-temporel transformer
-   - cet architecture est composée de deux étapes: 
+   - cet architecture est composée de deux étapes clés: 
       - *Pré-entraînement auto-supervisé :**  Masked Image Modeling (MIM), Contrastive learning entre timestamps.
-      - Fine-tuning supervisé sur un petit jeu de données annotées.
+      - Fine-tuning supervisé sur un jeu de données annotées.
 ---
 ## Résultats
 
